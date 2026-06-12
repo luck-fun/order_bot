@@ -69,7 +69,7 @@ async def state6(message: Message, state: FSMContext):
     Сроки {deadline}
     Бюджет {price}
     ТЗ {mission}
-    Детали {more}""", chat_id=5610944959)
+    Детали {more}""", chat_id="YOUR_CHAT_ID")
     await state.clear()
     
 
